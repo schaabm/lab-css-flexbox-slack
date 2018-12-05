@@ -11,19 +11,30 @@ nav grey: #5b5e6d;
   align-content: flex-start;
   flex-direction: column;
 }
-.form input{
-  border: 0.5px solid #2C303F; 
+
+.form input {
+  border: 0.5px solid #2C303F;
   padding: 0.8rem;
   width: 90%;
   border-radius: 0.4rem;
 }
+
 button {
   background-color: #3c4cdc;
   color: white;
-  margin-top:0.5rem;
-  padding:0.8rem;
+  margin-top: 0.5rem;
+  padding: 0.8rem;
   border-radius: 0.25rem;
-  border:none;
+  border: none;
   width: 90%;
+}
 
+.button-white {
+  background-color: white;
+  color: #3c4cdc;
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 0.25rem;
+  border: 1px solid #3c4cdc;
+  width: 90%;
 }

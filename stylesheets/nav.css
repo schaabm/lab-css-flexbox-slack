@@ -14,19 +14,17 @@ nav grey: #5b5e6d;
 }
 
 div>nav {
-  color:#5b5e6d;
+  color: #5b5e6d;
   padding: 0 0.8rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   position: relative;
 }
 
 div>nav>img {
   height: 4rem;
 }
-
 
 nav ul {
   display: none;

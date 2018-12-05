@@ -1,0 +1,32 @@
+footer header {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer header img {
+  width: 20%;
+}
+
+footer section header {
+  align-self: flex-start;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer section ul {
+  padding:0;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+footer section ul li {
+  color: #5b5e6d;
+  list-style-type: none;
+}
+
+footer section ul li:first-child {
+  font-weight: bold;
+}

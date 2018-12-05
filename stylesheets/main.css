@@ -5,14 +5,43 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
 @import url("nav.css");
 @import url("header.css");
 @import url("form.css");
+@import url("footer.css");
 
-body{
-  
+.centered {
+  text-align: center;
 }
+.bg{
+  background-color:#F4F3F4;
+}
+.patop{
+  padding-top: 2rem;
+}
+hr{
+  border:1px solid #666;
+  width:100%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  
+}
+main div, p {
+  padding: 0.5rem;
 
+}
+.use-slack {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.use-slack img{
+  width:80%;
+  padding: 0.5rem;
+}
 p {
-  color:#5b5e6d;
+  color: #5b5e6d;
 }

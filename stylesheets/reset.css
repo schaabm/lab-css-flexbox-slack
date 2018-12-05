@@ -18,9 +18,10 @@ html, body {
 h1, h2, h3, p {
   margin: 0 0 1rem;
 }
-form, input, button, fieldset{
-  padding:0;
-  margin:0;
+
+form, input, button, fieldset {
+  padding: 0;
+  margin: 0;
 }
 
 abbr {
