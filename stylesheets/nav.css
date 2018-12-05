@@ -1,0 +1,42 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+.is-fixed {
+  position: fixed;
+  z-index: 1000;
+  background-color: white;
+  width: 100%;
+}
+
+div>nav {
+  color:#5b5e6d;
+  padding: 0 0.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  position: relative;
+}
+
+div>nav>img {
+  height: 4rem;
+}
+
+
+nav ul {
+  display: none;
+}
+
+@media(min-width:1200px) {
+  nav svg {
+    display: none;
+  }
+  nav ul {
+    display: block;
+  }
+}

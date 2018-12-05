@@ -6,32 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://use.fontawesome.com/1fb0eb3889.js"></script>
     <link rel="stylesheet" href="./stylesheets/reset.css" />
-    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="stylesheet" href="./stylesheets/main.css" />
 
     <title>Where work happens | Slack</title>
   </head>
 
   <body>
-    <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
-        <li>Why Slack?</li>
-        <li>Pricing</li>
-        <li>About Us</li>
-        <li>Your Workspaces</li>
-      </ul>
-    </nav>
+    <div class="is-fixed">
+      <nav>
+        <img src="./images/slack-logo.png" alt="slack_logo" />
+        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+          <path
+            fill="#000000"
+            d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"
+          />
+        </svg>
+        <ul>
+          <li>Why Slack?</li>
+          <li>Pricing</li>
+          <li>About Us</li>
+          <li>Your Workspaces</li>
+        </ul>
+      </nav>
+    </div>
     <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
-      <h1>Where Work Happens</h1>
-      <p>
-        When your team needs to kick off a project, hire a new employee, deploy
-        some code, review a sales contract, finalize next year's budget, measure
-        an A/B test, plan your next office opening, and more, Slack has you
-        covered.
-      </p>
-      <button type="button" name="button">GET STARTED</button>
-      <p>Already using Slack? <a href="#">Sign in</a></p>
+      <section>
+        <img src="./images/home_talking.png" alt="home_work_happening" />
+      </section>
+      <section>
+        <h1>Where Work Happens</h1>
+        <p>When your team needs to kick off a project, hire a new employee,deploy some code, review a sales contract, finalize next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.        </p>
+        <div class="form"> <form action="#" method="post">
+          <input type="email" name="email" placeholder="Please insert you email ..." id="email">
+        <button type="button" name="button">GET STARTED</button>
+      </form>
+      </div>
+        <p>Already using Slack? <a href="#">Sign in</a></p>
+      </section>
     </header>
     <main>
       <div>

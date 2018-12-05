@@ -1,0 +1,29 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+.form {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+.form input{
+  border: 0.5px solid #2C303F; 
+  padding: 0.8rem;
+  width: 90%;
+  border-radius: 0.4rem;
+}
+button {
+  background-color: #3c4cdc;
+  color: white;
+  margin-top:0.5rem;
+  padding:0.8rem;
+  border-radius: 0.25rem;
+  border:none;
+  width: 90%;
+
+}
